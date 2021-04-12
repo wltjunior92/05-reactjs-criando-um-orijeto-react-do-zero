@@ -1,1 +1,41 @@
-// TODO
+.homeContainer {
+  button {
+    border: 0;
+    background: transparent;
+    color: var(--pink-500);
+    margin-top: 4rem;
+  }
+}
+
+.homeContent {
+  a {
+    display: block;
+
+    h1 {
+      font-weight: 700;
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p, time, span {
+      color: var(--gray-300);
+      font-size: 1rem;
+    }
+
+    > div {
+      margin-top: 1rem;
+
+      time {
+        margin-right: 1.5rem;
+      }
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+
+    & + a {
+      margin-top: 3rem;
+    }
+  }
+}
